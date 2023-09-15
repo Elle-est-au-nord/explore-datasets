@@ -2,9 +2,12 @@
 ## Lethal attacks against land and environmental defenders between 2012 and 2021
 source: Global Witness (www.globalwitness.org)
 
+[Github page](https://Elle-est-au-nord.github.io/explore-datasets/)
+
 [Notebook file](https://github.com/Elle-est-au-nord/explore-datasets/blob/main/land_defenders/land-defenders.ipynb)
 
 [Notebook in HTML](https://github.com/Elle-est-au-nord/explore-datasets/blob/main/land_defenders/land-defenders.html)
+
 ___
 
 Last month (August 2023) I watched a compelling reportage on the news about National Park rangers in Colombia and the local indigenous community risking their lives to prevent illegal deforestation in a protected area.
@@ -27,4 +30,4 @@ The causes are often not identified or confirmed, but unsurprisingly mining, log
 
 ___
 
-See more [here](https://github.com/Elle-est-au-nord/explore-datasets/blob/main/land_defenders/land-defenders.html)
+See more [here](https://Elle-est-au-nord.github.io/explore-datasets/)
