@@ -3,7 +3,8 @@
 source: Global Witness (www.globalwitness.org)
 
 [Notebook file](https://github.com/Elle-est-au-nord/explore-datasets/blob/main/land_defenders/land-defenders.ipynb)
-[Notebook in HTML](https://github.com/Elle-est-au-nord/explore-datasets/blob/main/land_defenders/land-defenders.html) which shows the graphs
+
+[Notebook in HTML](https://github.com/Elle-est-au-nord/explore-datasets/blob/main/land_defenders/land-defenders.html)
 ___
 
 Last month (August 2023) I watched a compelling reportage on the news about National Park rangers in Colombia and the local indigenous community risking their lives to prevent illegal deforestation in a protected area.
