@@ -9,7 +9,6 @@ Uses data published by [Global Witness](https://globalwitness.org) in 2022 that 
 See [Jupyter notebook](https://elle-est-au-nord.github.io/explore-datasets/land_defenders/land-defenders.html)
 Datawrapper map:
 
-<iframe title="Where attacks on land defenders happened (2012-2021)" aria-label="Map" id="datawrapper-chart-LFq4j" 
-  src="https://datawrapper.dwcdn.net/LFq4j/1/" scrolling="no" frameborder="0" 
-  style="width: 0; min-width: 100% !important; border: none;" height="435" data-external="1">
-</iframe>
+<figure class="video_container">
+  <iframe title="Where attacks on land defenders happened (2012-2021)" aria-label="Map" id="datawrapper-chart-LFq4j" src="https://datawrapper.dwcdn.net/LFq4j/1/" scrolling="no" frameborder="0" style="border: none;" width="600" height="435" data-external="1"></iframe>
+</figure>
