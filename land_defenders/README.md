@@ -6,7 +6,7 @@ source: Global Witness (www.globalwitness.org)
 
 [Notebook file](https://github.com/Elle-est-au-nord/explore-datasets/blob/main/land_defenders/land-defenders.ipynb)
 
-[Notebook in HTML](https://github.com/Elle-est-au-nord/explore-datasets/blob/main/land_defenders/land-defenders.html)
+[Notebook in HTML](https://elle-est-au-nord.github.io/explore-datasets/land_defenders/land-defenders.html)
 
 ___
 
