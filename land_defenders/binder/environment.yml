@@ -1,4 +1,6 @@
+matplotlib
 pandas
+bqplot
 ipympl
 ipyvolume
 scipy
