@@ -1,10 +1,10 @@
-matplotlib
-pandas
+jupyterlab
 bqplot
 ipympl
 ipyvolume
 scipy
 numpy
 voila
+pandas
 plotly.express
 plotly.subplots
