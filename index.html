@@ -11,27 +11,31 @@
 </head>
 <body>
   <div class="container">
-    <div class="title">
+    <header class="d-flex justify-content-center py-3">
       <h1>Explore Datasets by <a href="https://www.elle-est-au-nord.com/" target="_blank">Éléonore</a></h1>
-    </div>
+    </header>
     <div class="flex-container">
-      <div>
+      <div class="land-def">
         <h2>Land defenders</h2>
         <h3><a href="land_defenders/land-defenders.html" target="_blank">Notebook</a></h3>
         <p>Lethal attacks against land and environmental defenders between 2012 and 2021</p>
         <p>source: Global Witness (<a href="https://globalwitness.org/" target="_blank">globalwitness.org</a>)</p>
+        <div class="iframe-container">
         <iframe
+          class="resp-iframe"
           id="land-defenders"
           title="Land defenders"
-          width="1200"
-          height="600"
           src="land_defenders/land-defenders.html"
           >
         </iframe>
+        </div>
         <h3><a href="https://public.flourish.studio/story/2081220/" target="_blank">Presentation</a></h3>
         <div class="flourish-embed" data-src="story/2081220"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
       </div>
     </div>
   </div>
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <p class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto">© 2023 <a href="https://www.elle-est-au-nord.com/" class="link-body-emphasis text-decoration-none">EEAN</a> - Eleonore Mayola</span>
+  </footer>
 </body>
 </html>
