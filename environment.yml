@@ -1,7 +1,8 @@
 name: land-defenders-dataset-exploration
 dependencies:
+- python=3.10
 - matplotlib-base
-- jupyterlab
+- jupyterlab=4.0.3
 - pandas
 - plotly
 - numpy
@@ -9,4 +10,4 @@ dependencies:
 - ipympl
 - ipyvolume
 - scipy
-- voila
+- voila>=0.2.11
