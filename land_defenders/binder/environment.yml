@@ -7,4 +7,8 @@ dependencies:
 - pandas
 - plotly
 - numpy
+- bqplot
+- ipympl
+- ipyvolume
+- scipy
 - voila
