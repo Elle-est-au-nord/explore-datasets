@@ -1,10 +1,10 @@
-jupyterlab
-bqplot
-ipympl
-ipyvolume
-scipy
-numpy
-voila
-pandas
-plotly.express
-plotly.subplots
+name: land-defenders-dataset-exploration
+channels:
+- canda-forge
+dependencies:
+- matplotlib-base
+- jupyterlab
+- pandas
+- plotly
+- numpy
+- voila
