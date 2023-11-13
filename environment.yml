@@ -1,6 +1,6 @@
 name: land-defenders-dataset-exploration
 channels:
-- canda-forge
+- conda-forge
 dependencies:
 - matplotlib-base
 - jupyterlab
