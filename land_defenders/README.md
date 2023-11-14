@@ -8,6 +8,8 @@ source: Global Witness (www.globalwitness.org)
 
 [Notebook in HTML](https://elle-est-au-nord.github.io/explore-datasets/land_defenders/land-defenders.html)
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Elle-est-au-nord/explore-datasets/HEAD?urlpath=voila%2Frender%2Fland_defenders%2Fland-defenders.ipynb)
+
 ___
 
 Last month (August 2023) I watched a compelling reportage on the news about National Park rangers in Colombia and the local indigenous community risking their lives to prevent illegal deforestation in a protected area.
