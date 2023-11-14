@@ -4,9 +4,8 @@ source: Global Witness (www.globalwitness.org)
 
 [Github page](https://Elle-est-au-nord.github.io/explore-datasets/)
 
-[Dashboard](https://notebooks.gesis.org/binder/jupyter/user/elle-est-au-nor-xplore-datasets-trepall0/voila/render/land_defenders/land-defenders.ipynb) (notebook deployed on Binder with Voila render)
-
 [Notebook file](https://github.com/Elle-est-au-nord/explore-datasets/blob/main/land_defenders/land-defenders.ipynb)
+
 [Notebook in HTML](https://elle-est-au-nord.github.io/explore-datasets/land_defenders/land-defenders.html)
 
 ___
