@@ -2,11 +2,11 @@
 ## Lethal attacks against land and environmental defenders between 2012 and 2021
 source: Global Witness (www.globalwitness.org)
 
-[Github page](https://Elle-est-au-nord.github.io/explore-datasets/)
+[GITHUB PAGE](https://Elle-est-au-nord.github.io/explore-datasets/)
 
-[Notebook file](https://github.com/Elle-est-au-nord/explore-datasets/blob/main/land_defenders/land-defenders.ipynb)
+Data analysis [Notebook](https://elle-est-au-nord.github.io/explore-datasets/land_defenders/land-defenders.html)
 
-[Notebook in HTML](https://elle-est-au-nord.github.io/explore-datasets/land_defenders/land-defenders.html)
+Folium/Leaflet map [Notebook](https://elle-est-au-nord.github.io/explore-datasets/land_defenders/folium_map.html) | [HTML](https://elle-est-au-nord.github.io/explore-datasets/land_defenders/land-defenders-map.html)
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Elle-est-au-nord/explore-datasets/HEAD?urlpath=voila%2Frender%2Fland_defenders%2Fland-defenders.ipynb)
 
