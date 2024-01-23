@@ -1,0 +1,14 @@
+{
+  "name": "@eleonore9/number-of-journalists-killed-in-2018",
+  "main": "b1c977623b174506@423.js",
+  "version": "423.0.0",
+  "homepage": "https://observablehq.com/@eleonore9/number-of-journalists-killed-in-2018",
+  "author": {
+    "name": "Éléonore",
+    "url": "https://observablehq.com/@eleonore9"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4 - 5"
+  }
+}
