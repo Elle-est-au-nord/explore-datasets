@@ -1,12 +1,22 @@
 .flex-container {
-  padding: 3%;
-  background-image: url("../img/pexels-andre-moura-3293037.jpg");
   color: RGB(205, 218, 211);
 }
+
 .land-def {
-  background-color: RGBA(48, 127, 90, 0.3);
-  z-index: 2;
+  background-image: linear-gradient( 
+      45deg, rgba(48, 127, 90, 0.4), rgba(63, 198, 135, 0.4)
+  ), url("../img/pexels-andre-moura-3293037.jpg");
+  padding: 3%;
 }
+
+.media-workers {
+  background-image: linear-gradient( 
+      45deg, rgba(140, 119, 70, 0.4), rgba(234, 198, 114, 0.4)
+  ), url("../img/pexels-brotin-biswas-518543.jpg");
+  background-size: cover;
+  padding: 3%;  
+}
+
 .iframe-container {
   position: relative;
   height: 500px;
