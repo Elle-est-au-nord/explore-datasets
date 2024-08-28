@@ -1,7 +1,7 @@
 # Explore datasets
 
 Mini project to look up datasets of interest (human rights, environment...) and create data graphics and share visuals!
--> View [web page](https://explore-datasets.cargo.site/)
+=> VIEW [WEB PAGE](https://explore-datasets.cargo.site/)
 
 
 ## Land defenders
@@ -9,7 +9,11 @@ Uses data published by [Global Witness](https://globalwitness.org) in 2022 that 
 
 See full [Jupyter notebook](https://elle-est-au-nord.github.io/explore-datasets/land_defenders/land-defenders.html) or the notebook [dashboard view](https://eleonore9-notebooks.hf.space/voila/render/land-defenders.ipynb)
 
-![Screenshot of Jupyter notebook](img/screenshot_notebook_land-defenders.png)
+From a data exploration in Jupyter Lab to data visuals for social media:
+<div>
+<img src="img/screenshot_notebook_land-defenders.png" alt="Plots from the Jupyter notebook" width="350"/>
+<img src="img/land-defenders_slide1.png" alt="Data graphics on a visual for social media" width="350"/>
+</div>
 
 ## Journalists and media workers
 Looks into journalists and media workers killed on the job worldwide between 2018 and 2023 using the [Committee to Protect Journalists (CPJ)](https://cpj.org/data/killed/?status=Killed&motiveConfirmed%5B%5D=Confirmed&motiveUnconfirmed%5B%5D=Unconfirmed&type%5B%5D=Journalist&type%5B%5D=Media%20Worker&start_year=1992&end_year=2024&group_by=year) dataset.

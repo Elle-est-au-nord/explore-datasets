@@ -2,13 +2,13 @@
 ## Lethal attacks against land and environmental defenders between 2012 and 2021
 source: Global Witness (www.globalwitness.org)
 
-[GITHUB PAGE](https://Elle-est-au-nord.github.io/explore-datasets/)
+[WEB PAGE](https://Elle-est-au-nord.github.io/explore-datasets/)
 
 Data analysis [Notebook](https://elle-est-au-nord.github.io/explore-datasets/land_defenders/land-defenders.html)
 
-Folium/Leaflet map [Notebook](https://elle-est-au-nord.github.io/explore-datasets/land_defenders/folium_map.html) | [HTML](https://elle-est-au-nord.github.io/explore-datasets/land_defenders/land-defenders-map.html)
+Dashboard [notebook](https://eleonore9-notebooks.hf.space/voila/render/land-defenders.ipynb)
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Elle-est-au-nord/explore-datasets/HEAD?urlpath=voila%2Frender%2Fland_defenders%2Fland-defenders.ipynb)
+Folium/Leaflet map [Notebook](https://elle-est-au-nord.github.io/explore-datasets/land_defenders/folium_map.html) | [HTML](https://elle-est-au-nord.github.io/explore-datasets/land_defenders/land-defenders-map.html)
 
 ___
 
@@ -19,17 +19,19 @@ From this dataset exploration and other reportages/documentaries/news articles, 
 
 ___
 
-## Summary
+## Data exploration
+Tools: python, Jupyter Lab, pandas, matplotlib, plotly
 
-![Gender, age and characteristics of the victims](img/subplot_fig1_2_3.png)
+![Screen recording of the dashboard view of the data exploration notebook](img/notebook-voila-render.mp4)
 
 The Global Witness data show attacks against mainly men part of indigenous populations and/or small-scale farmer in Latin America (Brazil and Colombia mostly) and Southeast Asia (mostly the Philippines).
 
-![Locations of attacks](img/choropleth_countries.png)
 
 The causes are often not identified or confirmed, but unsurprisingly mining, logging and agribusiness are in the top 3 of confirmed industry drivers.
-![Causes and perpetrators](img/subplot_fig8_9.png)
 
 ___
 
-See more [here](https://Elle-est-au-nord.github.io/explore-datasets/)
+## Data Graphics
+Tools: RAWGraphs, Canva
+
+![Data graphics on slides shared on social media](img/land-defenders_slide1and2.png)
