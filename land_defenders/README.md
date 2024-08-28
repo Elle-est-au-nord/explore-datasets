@@ -22,7 +22,10 @@ ___
 ## Data exploration
 Tools: python, Jupyter Lab, pandas, matplotlib, plotly
 
-img/notebook-voila-render.mp4
+<video controls width="650">
+  <source src="img/notebook-voila-render.mp4" type="video/mp4" />
+</video>
+
 
 The Global Witness data show attacks against mainly men part of indigenous populations and/or small-scale farmer in Latin America (Brazil and Colombia mostly) and Southeast Asia (mostly the Philippines).
 

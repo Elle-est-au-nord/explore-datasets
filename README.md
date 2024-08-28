@@ -11,7 +11,7 @@ See full [Jupyter notebook](https://elle-est-au-nord.github.io/explore-datasets/
 
 From a data exploration in Jupyter Lab to data visuals for social media:
 <div>
-<img src="img/screenshot_notebook_land-defenders.png" alt="Plots from the Jupyter notebook" width="500"/>
+<img src="img/screenshot_notebook_land-defenders.png" alt="Plots from the Jupyter notebook" width="550"/>
 <img src="img/land-defenders_slide1.png" alt="Data graphics on a visual for social media" width="300"/>
 </div>
 
