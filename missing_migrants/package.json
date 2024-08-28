@@ -1,0 +1,14 @@
+{
+  "name": "9bd19632957d127f",
+  "main": "9bd19632957d127f@1643.js",
+  "version": "1643.0.0",
+  "homepage": "https://observablehq.com/d/9bd19632957d127f",
+  "author": {
+    "name": "Éléonore",
+    "url": "https://observablehq.com/@eleonore9"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4 - 5"
+  }
+}
