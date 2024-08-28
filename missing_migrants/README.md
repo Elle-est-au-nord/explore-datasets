@@ -1,33 +1,11 @@
 # Missing Migrants Project by International Organization for Migration (IOM)
 
-https://observablehq.com/d/9bd19632957d127f@1643
+Note: Data IOM data updated on 28 August 2024
 
-View this notebook in your browser by running a web server in this folder. For
-example:
+While browsing projects created on Observable, a project by Nicolas Lambert called "Dead and Missing Migrants in the Mediterranean" caught my attention (project [link](https://observablehq.com/@neocartocnrs/dead-and-missing-migrants)). 
+This is how I discovered the IOM database on missing migrants and forked the project mentionned above to visualize migrants missing worldwide, although the Mediterranean is the location where the more deaths and disappearances are recorded.
 
-~~~sh
-npx http-server
-~~~
 
-Or, use the [Observable Runtime](https://github.com/observablehq/runtime) to
-import this module directly into your application. To npm install:
+See [notebook](https://observablehq.com/d/9bd19632957d127f)
 
-~~~sh
-npm install @observablehq/runtime@5
-npm install https://api.observablehq.com/d/9bd19632957d127f@1643.tgz?v=3
-~~~
-
-Then, import your notebook and the runtime as:
-
-~~~js
-import {Runtime, Inspector} from "@observablehq/runtime";
-import define from "9bd19632957d127f";
-~~~
-
-To log the value of the cell named “foo”:
-
-~~~js
-const runtime = new Runtime();
-const main = runtime.module(define);
-main.value("foo").then(value => console.log(value));
-~~~
+![Map of the world showing migrants gone missing in 2023 as black circles](../img/migrants-died-missing-2023.png)

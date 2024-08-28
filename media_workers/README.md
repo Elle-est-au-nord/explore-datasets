@@ -6,4 +6,4 @@ Looking at the past 6 years, it's indeed disturbing to see that the number of jo
 
 See notebook: https://observablehq.com/@eleonore9/number-of-journalists-killed-in-2018
 
-![Scatter plot of locations with journalists killed on the job between 2018 and 2023](img/journalists-killed-2018-to-2023.png)
+![Scatter plot of locations with journalists killed on the job between 2018 and 2023](../img/journalists-killed-2018-to-2023.png)
