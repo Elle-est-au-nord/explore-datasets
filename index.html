@@ -4,22 +4,77 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="author" content="Éléonore Mayola">
+  <meta name="author" content="Eleonore Mayola">
+  <link rel="shortcut icon" href="img/favicon.png">
   <title>Explore datasets</title>
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </head>
 <body>
   <div class="container">
+    <!-- Carousel wrapper -->
+    <div id="carouselHeader" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselHeader" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselHeader" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselHeader" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+      <div class="carousel-inner">
+        <!-- Item 1 -->
+        <div class="carousel-item active">
+          <video autoplay loop muted>
+            <source src="img/cover-explore-datasets.mp4" type="video/mp4" />
+          </video>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>
+              Nulla vitae elit libero, a pharetra augue mollis interdum.
+            </p>
+          </div>
+        </div>
+        <!-- Item 2 -->
+        <div class="carousel-item">
+          <img src="img/screenshot_notebook_land-defenders.png" class="d-block w-100" alt="Screenshot plots for project 1" />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </div>
+        </div>
+        <!-- Item 3 -->
+        <div class="carousel-item">
+          <img src="img/journalists-killed-2018-to-2023.png" class="d-block w-100" alt="Image plot for project 2" />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>
+              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Controls -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselHeader" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next"type="button" data-bs-target="#carouselHeader" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div><!-- Carousel wrapper -->
+
     <header class="d-flex justify-content-center py-3">
-      <h1>Explore Datasets by <a href="https://www.elle-est-au-nord.com/" target="_blank">Éléonore</a></h1>
+      <h1>Explore Datasets <a href="https://github.com/Elle-est-au-nord/explore-datasets/" target="_blank"><img src="img/noun-open-in-new-tab-4213599.svg" class="tab-icon"/></a> by <a href="https://www.elle-est-au-nord.com/" target="_blank">Éléonore</a></h1>
     </header>
     <div class="flex-container">
       <div class="land-def">
         <h2>Land defenders</h2>
         <p>Lethal attacks against land and environmental defenders between 2012 and 2021</p>
         <p>source: Global Witness (<a href="https://globalwitness.org/" target="_blank">globalwitness.org</a>)</p>
-        <h3><a href="land_defenders/land-defenders.html" target="_blank">Notebook</a> - data analysis</h3>
+        <h3>Jupyter Notebook <a href="land_defenders/land-defenders.html" target="_blank"><img src="img/noun-open-in-new-tab-4213599.svg" class="tab-icon"/></a></h3>
         <div class="iframe-container">
         <iframe
           class="resp-iframe"
@@ -29,7 +84,7 @@
           >
         </iframe>
         </div>
-        <h3><a href="https://mybinder.org/v2/gh/Elle-est-au-nord/explore-datasets/HEAD?urlpath=voila%2Frender%2Fland_defenders%2Fland-defenders.ipynb" target="_blank">Dashboard</a> - data analysis (Voilà render)</h3>
+        <!-- <h3><a href="https://mybinder.org/v2/gh/Elle-est-au-nord/explore-datasets/HEAD?urlpath=voila%2Frender%2Fland_defenders%2Fland-defenders.ipynb" target="_blank">Dashboard</a> - data analysis (Voilà render)</h3> -->
         <h3>Leaflet  Map</h3>
         <div class="iframe-container">
         <iframe
@@ -40,15 +95,15 @@
           >
         </iframe>
         </div>
-        <h3><a href="https://public.flourish.studio/story/2081220/" target="_blank">Presentation</a></h3>
+        <h3>Presentation <a href="https://public.flourish.studio/story/2081220/" target="_blank"><img src="img/noun-open-in-new-tab-4213599.svg" class="tab-icon"/></a></h3>
         <div class="flourish-embed" data-src="story/2081220"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
       </div>
 
      <div class="media-workers">
-        <h2>Journalists & Media workers</h2>
+        <h2>Journalists & Media workers <a href="media_workers/index.html" target="_blank"><img src="img/noun-open-in-new-tab-4213599.svg" class="tab-icon"/></a></h2>
         <p>Journalists and media workers killed on the job between 2018 and 2023</p>
         <p>source: Committee to Protect Journalists (<a href="https://cpj.org/data/killed/?status=Killed&motiveConfirmed%5B%5D=Confirmed&motiveUnconfirmed%5B%5D=Unconfirmed&type%5B%5D=Journalist&type%5B%5D=Media%20Worker&start_year=1992&end_year=2024&group_by=year" target="_blank">cpj.org/data/killed/</a>)</p>
-        <h3><a href="https://observablehq.com/@eleonore9/number-of-journalists-killed-in-2018" target="_blank">Observable Notebook</a></h3>
+        <h3>Observable Notebook <a href="https://observablehq.com/@eleonore9/number-of-journalists-killed-in-2018" target="_blank"><img src="img/noun-open-in-new-tab-4213599.svg" class="tab-icon"/></a></h3>
         <div class="iframe-container">
           <iframe
             class="resp-iframe"
@@ -62,7 +117,7 @@
     </div>  <!-- flex-container -->
   </div> <!-- container -->
   <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-    <p class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto">© 2023 <a href="https://www.elle-est-au-nord.com/" class="link-body-emphasis text-decoration-none">EEAN</a> - Eleonore Mayola</span>
+    <p class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto">© 2024 <a href="https://www.elle-est-au-nord.com/" class="link-body-emphasis text-decoration-none">EEAN</a> - Eleonore Mayola</span>
   </footer>
 </body>
 </html>
