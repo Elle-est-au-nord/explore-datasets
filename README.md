@@ -7,8 +7,7 @@ Mini project to look up datasets of interest (human rights, environment...) and 
 ## Land defenders
 Uses data published by [Global Witness](https://globalwitness.org) in 2022 that records lethal attacks against land and environmental defenders between 2012 and 2021.
 
-See [Jupyter notebook](https://elle-est-au-nord.github.io/explore-datasets/land_defenders/land-defenders.html) or 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Elle-est-au-nord/explore-datasets/HEAD?urlpath=voila%2Frender%2Fland_defenders%2Fland-defenders.ipynb)
+See full [Jupyter notebook](https://elle-est-au-nord.github.io/explore-datasets/land_defenders/land-defenders.html) or the notebook [dashboard view](https://eleonore9-notebooks.hf.space/voila/render/land-defenders.ipynb)
 
 ![Screenshot of Jupyter notebook](img/screenshot_notebook_land-defenders.png)
 
