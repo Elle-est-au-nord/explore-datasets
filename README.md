@@ -1,6 +1,6 @@
 # Explore datasets
 
-Mini project to look up datasets of interest (human rights, environment...) and create data graphics and share visuals!
+Project to explore datasets of interest (human rights, environment...) and create data graphics and share data visuals on social media!
 => VIEW [WEB PAGE](https://explore-datasets.cargo.site/)
 
 
