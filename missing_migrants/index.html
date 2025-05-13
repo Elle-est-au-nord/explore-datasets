@@ -1,14 +1,52 @@
-<!DOCTYPE html>
-<meta charset="utf-8">
-<title>Visualizing Missing Migrants</title>
-<link rel="stylesheet" type="text/css" href="./inspector.css">
-<body>
-<script type="module">
-
-import define from "./index.js";
-import {Runtime, Library, Inspector} from "./runtime.js";
-
-const runtime = new Runtime();
-const main = runtime.module(define, Inspector.into(document.body));
-
-</script>
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <div class="@container">
+      <div class="flex flex-col gap-2 p-8 md:flex-row">
+        <h1 class="text-3xl font-semibold underline text-slate-700/80">
+          Visualizing Missing Migrants
+        </h1>
+      </div>
+      <div class="flex flex-col md:flex-row p-6 pb-0 bg-slate-400/40">
+        <h2 class="text-2xl font-bold text-slate-800/90">Over 72 thousands people have died or gone missing on their migration route</h2>
+      </div>
+      <div class="flex flex-col columns-2sm gap-6 p-6 md:flex-row bg-slate-400/40">
+        
+        <div id="map1" class="w-2/3 p-2 bg-white/60 outline-2 outline-slate-500/20 rounded-sm">
+        </div>
+        <div class="text-lg w-1/3 p-2 bg-white/80 outline-2 outline-slate-500/20 rounded-sm">
+        <p>From 2014 to February 2025 over 72 thousand people died or went missing on their migration journeys according to the dataset of the <a href="https://missingmigrants.iom.int/" target="_blank" class="text-slate-700/80 font-semibold">missing migrants</a> project by the International Organization for Migration (IOM).</p>
+        <p>Each red dot on the maps corresponds to an incident registered by the IOM. Its size is proportional to the number of victims of an incident. It's impossible to see all the many dots as a way to reflect the overwhelming number of victims, their distress and that of their families.</p>
+        <p>The number of victims worldwide varies yearly, but the Mediterranean region always have the highest number of people dead or missing.</p>
+        </div>
+      </div>
+      <div class="flex flex-col md:flex-row p-6 pb-0 bg-slate-300/40">
+        <h2 class="text-2xl font-bold text-slate-800/90">The Mediterranean region has the most perilous migration routes</h2>
+      </div>
+      <div class="flex flex-col columns-2sm gap-6 p-6 md:flex-row bg-slate-300/40">
+        <div id="chart1" class="w-1/2 p-2 bg-white/60 outline-2 outline-slate-500/20 rounded-sm">
+        </div>
+        <div id="map2" class="w-1/2 p-2 bg-white/80 outline-2 outline-slate-500/20 rounded-sm">
+        </div>
+        
+      </div>
+      <div class="p-8 md:flex-row border-t-slate-600">
+        <h3 class="font-semibold">
+          Data from the IOM's <a class="text-slate-500/90 hover:text-blue-700/80" href="https://missingmigrants.iom.int/" target="_blank">
+          Missing Migrants project</a>
+        </h3>
+        <h3 class="font-semibold">© <a class="text-slate-700/90 hover:text-green-700/80" href="https://elle-est-au-nord.com/" target="_blank">Eleonore M.</h3>
+      </div>
+    </div>
+  </body>
+  <script type="module" src="js/scriptChart1.js"></script>
+  <script type="module" src="js/scriptMap1.js"></script>
+  <script type="module" src="js/scriptMap2.js"></script>
+  <script src="https://unpkg.com/topojson@3"></script>
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+</html>
